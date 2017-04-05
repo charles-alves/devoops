@@ -178,11 +178,11 @@
 <script type="text/javascript">
 // Load OpenLayers library and create test map
 function OpenLayersMap() {
-	$.getScript('http://www.openlayers.org/api/OpenLayers.js', LoadTestMap);
+	$.getScript('https://www.openlayers.org/api/OpenLayers.js', LoadTestMap);
 }
 $(document).ready(function () {
 	// Load Google Map API and callback to OpenLayers
-	$.getScript('http://maps.google.com/maps/api/js?sensor=false&callback=OpenLayersMap');
+	$.getScript('https://maps.google.com/maps/api/js?sensor=false&callback=OpenLayersMap');
 	// Add Drag-n-Drop feature
 	WinMove();
 });

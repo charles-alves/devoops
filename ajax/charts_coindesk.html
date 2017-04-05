@@ -18,7 +18,7 @@
 	</div>
 </div>
 <h4 class="page-header">Bitcoin exchange value </h4>
-<p><i class="fa fa-info"></i> This data get in realtime from <code>http://www.coindesk.com/api/</code>&nbsp;&nbsp;&nbsp;  input data format- JSON</p>
+<p><i class="fa fa-info"></i> This data get in realtime from <code>https://www.coindesk.com/api/</code>&nbsp;&nbsp;&nbsp;  input data format- JSON</p>
 <div class="row">
 	<div class="col-xs-12">
 		<div class="box">
@@ -146,7 +146,7 @@ function DrawAllCoindeskGraph(){
 }
 $(document).ready(function() {
 	// Load Google Chart API and callback another plots
-	$.getScript('http://www.google.com/jsapi?autoload={%22modules%22%3A[{%22name%22%3A%22visualization%22%2C%22version%22%3A%221%22%2C%22packages%22%3A[%22corechart%22%2C%22geochart%22]%2C%22callback%22%3A%22DrawAllCoindeskGraph%22}]}');
+	$.getScript('https://www.google.com/jsapi?autoload={%22modules%22%3A[{%22name%22%3A%22visualization%22%2C%22version%22%3A%221%22%2C%22packages%22%3A[%22corechart%22%2C%22geochart%22]%2C%22callback%22%3A%22DrawAllCoindeskGraph%22}]}');
 	// Function for Drag-n-drop of box with plots
 	WinMove();
 });
